@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f1f3f2;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #f1f3f2;
+}
+canvas {
+  width: 100% !important;
+}
+img {
+  object-fit: cover;
+}
+
+.top_container {
+  background-color: #031224;
+  padding-bottom: 10px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.top_container > .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 14px;
+  border-bottom: 2px solid #1e293b;
+}
+.top_container > .nav > .logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.top_container > .nav > .logo > i {
+  color: #f1f3f2;
+  font-size: 24px;
+}
+.top_container > .nav > .logo > a {
+  font-size: 16px;
+}
+.top_container > .nav > .nav-links {
+  display: flex;
+  gap: 20px;
+}
+.top_container > .nav > .nav-links > a {
+  color: #ccc;
+  transition: all 0.3s ease;
+}
+
+.top_container > .nav > .nav-links > a:hover {
+  color: #fff;
+}
+.top_container > .nav > .right_section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.top_container > .nav > .right_section > i {
+  color: #f1f3f2;
+  background-color: #1e293b;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.top_container > .nav > .right_section > .profile {
+  display: flex;
+  align-items: center;
+  background-color: #1e293b;
+  padding: 0px 10px;
+  border-radius: 50px;
+  gap: 10px;
+}
+.top_container > .nav > .right_section > .profile > .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top_container > .nav > .right_section > .profile > .info > img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #f1f3f2;
+}
+.top_container > .nav > .right_section > .profile > .info > a {
+  font-size: 13px;
+}
+.top_container > .nav > .right_section > .profile > .info p {
+  color: #ccc;
+  font-size: 13px;
+}
+.top_container > .nav > .right_section > .profile > i {
+  cursor: pointer;
+  color: #f1f3f2;
+  font-size: 22px;
+}
